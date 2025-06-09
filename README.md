@@ -54,35 +54,23 @@ PitchMate is a full-stack web platform that connects startup **Founders** with p
 ## 🗂 Project Structure
 
 PitchMate/
+├── client/ # React Frontend
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── api/
+│ │ └── main.jsx
+│ └── ...
 │
-├── client/                    # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── api/               # Axios setup
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── .env
-│   ├── package.json
-│   └── vite.config.js
+├── server/ # FastAPI Backend
+│ ├── app/
+│ │ ├── api/ # Routes
+│ │ ├── db/ # Mongo connection
+│ │ ├── models/ # DB models
+│ │ ├── schemas/ # Pydantic schemas
+│ │ └── main.py
+│ └── ...
 │
-├── server/                    # FastAPI backend
-│   ├── app/
-│   │   ├── api/               # Route handlers
-│   │   ├── db/                # MongoDB connection
-│   │   ├── models/            # Pydantic & DB models
-│   │   ├── schemas/           # Request/response validation
-│   │   ├── services/          # Business logic
-│   │   ├── main.py            # FastAPI instance
-│   │   └── config.py          # Settings loader
-│   ├── .env
-│   ├── requirements.txt
-│   └── README.md
-│
-├── README.md
 ├── .gitignore
+├── README.md
 └── LICENSE
