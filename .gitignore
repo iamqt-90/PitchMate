@@ -1,1 +1,13 @@
+# Node
+client/node_modules
+client/dist
 
+# Python
+server/__pycache__/
+*.pyc
+server/.venv
+server/.env
+
+# System
+.DS_Store
+.env
