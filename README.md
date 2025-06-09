@@ -53,24 +53,5 @@ PitchMate is a full-stack web platform that connects startup **Founders** with p
 
 ## 🗂 Project Structure
 
-PitchMate/
-├── client/ # React Frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── api/
-│ │ └── main.jsx
-│ └── ...
-│
-├── server/ # FastAPI Backend
-│ ├── app/
-│ │ ├── api/ # Routes
-│ │ ├── db/ # Mongo connection
-│ │ ├── models/ # DB models
-│ │ ├── schemas/ # Pydantic schemas
-│ │ └── main.py
-│ └── ...
-│
-├── .gitignore
-├── README.md
-└── LICENSE
+![image](https://github.com/user-attachments/assets/6b17fbc2-0c22-4b38-87fa-ee74a1682ca6)
+
