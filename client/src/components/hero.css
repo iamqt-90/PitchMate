@@ -2,16 +2,18 @@
 
 .hero-section {
   width: 100%;
-  height: 100vh;
-  background-image: url('C:\Users\admin\OneDrive\Desktop\pitchmate-project\img1.webp'); /* Adjust path if needed */
+  height: 400px; /* Reduced from 100vh to a smaller fixed height */
+  background-image: url('C:\Users\admin\OneDrive\Desktop\pitchmate-project\img1.webp'); /* Add your image path */
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  border-radius:25px;
+  border-radius: 40px; /* More curved corners */
+  overflow: hidden; /* Ensures child content stays within curves */
 }
+
 
 .hero-overlay {
   width: 100%;
